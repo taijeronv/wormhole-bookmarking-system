@@ -32,10 +32,10 @@ Each new wormhole system added to the chain is labelled by adding a digit to the
 
 ### Where there is more than one non-static
 The first found is labelled by adding a `2` to the end of the label for your current system. 
-_EG. `11-112`_
+EG. `11-112`
 
 The next non static found in the same system adds a `3` to the end of the label and so on. 
-_EG. `11-113`_
+EG. `11-113`
 
 There is always a static hole to be found in each wormhole you enter and as long as you scan down the static chain you will eventually end in known space (k-space - null, low or high) unless you manage to loop around and reconnect to a system in your current chain.
 
@@ -46,20 +46,20 @@ However, remember when scanning a non-static system the static is the hole that 
 An example of a static chain: `0 - 1 - 11 - 111 - 4x1 - 5x1 - 6x1`
 
 
-## Bookmarking wormholes:
+## Bookmarking wormholes
 Wormhole bookmarks have two important parts seperated by `-`
 
 The first part of the bookmark is the label of the system you are currently in. The second part of the bookmark is the label of the system that the wormhole leads to. 
-_EG. `11-111`_
+EG. `11-111`
 
 ### There are a few other important principles: 
 
 1. FOUR OR MORE of the same number should be abbreviated
-_EG. `11111` = `5x1`_
+EG. `11111` = `5x1`
 2. Known space holes should be edited with the name of the system, so that multiple holes can be easily differentiated.
-_EG. `111-null (YKE4-3)` or `4x1-high (Ashab)` or `5x1-low (Maila)`_
+EG. `111-null (YKE4-3)` or `4x1-high (Ashab)` or `5x1-low (Maila)`
 3. The holes that enter wormhole space from k-space don't require the extra information, the bookmarks as viewed in your "People and Places" or clicking on the system in siggy will tell you what system it is in if you can't use siggy at the time.
-_EG. `low-4x1`_
+EG. `low-4x1`
 4. If you encounter a wormhole in k-space, you start a new chain number and name the hole `X1` or `N1` or `Z1` or `whatever1`. Then the next hole you find in the `X1` system will be `X11` or `X12`, etc.
 
 ## Sites & Signatures
@@ -107,8 +107,8 @@ When clearing gas site of Sleepers you should consider bookmarking the clouds ev
 3. Update the siggy map
 - The static chain should be positioned in as straight a line as possible to the right of homesys. You can move the position of a system by clicking 'Options > Edit Map' on the bottom left hand corner of the map and dragging the systems around. 
 - Update the system information by right clicking the system select 'edit'. This will bring up a window of system information. 
-1. Update the systems activity level. (Green = Empty = No online POS / Yellow = Occupied = Online POS but no active pilots spotted / Red = Active pilots have been reported in system) 
-2. If the wormhole is not part of the static chain edit the system name to help with navigation. Standard labelling with the system class _EG. `11122 (C3)`_
+- Update the systems activity level. (Green = Empty = No online POS / Yellow = Occupied = Online POS but no active pilots spotted / Red = Active pilots have been reported in system) 
+- If the wormhole is not part of the static chain edit the system name to help with navigation. Standard labelling with the system class EG. `11122 (C3)`
 
 ### Finally drop probes and start scanning:
 **Add the signatures to siggy**
@@ -121,11 +121,11 @@ When clearing gas site of Sleepers you should consider bookmarking the clouds ev
 ### When adding wormholes to siggy
 **Make sure you fill out all the appropriate siggy fields completely.**
 1. 'Type' should be set to `WH`
-2. Under 'Name/Description' select the correct wormhole type like `K162 (from Dangerous unknown)` from the drop down menu. In the text box add the wormhole name EXACTLY as you bookmarked it. _EG. `12-122`_
+2. Under 'Name/Description' select the correct wormhole type like `K162 (from Dangerous unknown)` from the drop down menu. In the text box add the wormhole name EXACTLY as you bookmarked it. EG. `12-122`
 3. Check the wormhole status and update the wormhole information by clicking on the link between two systems on the map. The menu that pops up allows you to set the hole as EOL, mark it as a frigate wormhole and/or modifying the mass stage so that it is visible on the siggy map.
 4. If you encounter a wormhole to k-space you can use a temporary label to identify it until you jump through however the optimal labelling for k-space wormholes is `11-high (Boranai)` or `11-null (H-ADOC)` or `11-low (Maila)`, NOT `11-null1`. Having systems labelled as `null1` `null2` `null3` leads to confusion when you can see the fleet in a system on siggy but don't know which bookmark to use.
 
-### Updating the bookmark can 
+### Updating the bookmark can
 This only applies for wormhole alliances living in one and the same wormhole. You are not finished scanning before you've updated the bookmark can, as only your corp has the current bookmarks.
 - Remove the old bookmarks and trash them
 - Put in a full set of current bookmarks
