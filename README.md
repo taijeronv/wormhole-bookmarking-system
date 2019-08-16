@@ -24,8 +24,8 @@ This is a guide to procedures optimal when scanning and bookmarking in EVE Onlin
 - `'insert letter'1` signifies a wormhole chain that branches off a k-space in the chain (EG `N1`, `H1`, `L1`, or any other letter if more than one in the chain. 
 
 Wormholes are a passage with an entry and an exit. The entry side will have a name like `W237` or `V911`. The exit side will always be `K162`.
-- Home System is always signified by `0`
-- The static from homesys is always signified by `1`
+- Home system is always signified by `0`
+- The static from home system is always signified by `1`
 
 Each new wormhole system added to the chain is labelled by adding a digit to the label of the hole that you are currently in, depending on whether it is a static (add `1`) or a non-static (add `2` through `9`).
 
@@ -34,7 +34,7 @@ Each new wormhole system added to the chain is labelled by adding a digit to the
 The first found is labelled by adding a `2` to the end of the label for your current system. 
 _EG. `11-112`_
 
-The next non static found in the same system adds a 3 to the end of the label and so on. 
+The next non static found in the same system adds a `3` to the end of the label and so on. 
 _EG. `11-113`_
 
 There is always a static hole to be found in each wormhole you enter and as long as you scan down the static chain you will eventually end in known space (k-space - null, low or high) unless you manage to loop around and reconnect to a system in your current chain.
@@ -79,7 +79,7 @@ The standard method for bookmarking signatures is up to your corporation or alli
 - `###` Signature as marked on siggy
 - Full name of the site (which automatically comes up when you click "Save Location") 
 
-When clearing gas site of Sleepers you should bookmark the clouds even if you don't intend to gas them (other people might have the time even for those crappy clouds). When bookmarking gas clouds the following convention helps determine what size and type of cloud it is while also telling the user which site it is in. 
+When clearing gas site of Sleepers you should consider bookmarking the clouds even if you don't intend to gas them (other people might have the time, even for those crappy clouds). When bookmarking gas clouds the following convention helps determine what size and type of cloud it is while also telling the user which site it is in. 
 
 `c320-Vital-XYZ`
 - Gas Type 
@@ -93,7 +93,7 @@ When clearing gas site of Sleepers you should bookmark the clouds even if you do
 
 ### Before you decloak:
 - Bookmark the wormhole you just came through (refer to bookmarking section) 
-- Use your directional scanner (d-scan) and look for activity/structures in range of your entry wormhole. Make sure wrecks are in your filter so you can find targets doing sites as soon as possible!
+- Use your directional scanner (d-scan) and look for activity/structures in range of your entry wormhole. Make sure wrecks are visible on your d-scan filter so you can find targets doing sites as soon as possible!
 
 ### Before you drop probes:
 1. If nothing appears to be active
@@ -108,21 +108,21 @@ When clearing gas site of Sleepers you should bookmark the clouds even if you do
 - The static chain should be positioned in as straight a line as possible to the right of homesys. You can move the position of a system by clicking 'Options > Edit Map' on the bottom left hand corner of the map and dragging the systems around. 
 - Update the system information by right clicking the system select 'edit'. This will bring up a window of system information. 
 1. Update the systems activity level. (Green = Empty = No online POS / Yellow = Occupied = Online POS but no active pilots spotted / Red = Active pilots have been reported in system) 
-2. If the wormhole is not part of the static chain edit the system name to help with navigation. Include the NOHO label (refer to bookmarking section) and the system class EG "11122 (C3)" 
+2. If the wormhole is not part of the static chain edit the system name to help with navigation. Standard labelling with the system class _EG. `11122 (C3)`_
 
 ### Finally drop probes and start scanning:
-**Add the Signatures to Siggy**
-1. In the Probe Scanner window and hit `Ctrl+A` to select all of the signatures, then hit `Ctrl+C` to copy them.
-2. Open Siggy. Click on the system you're in, scroll down to "[+] Mass Sig Reader" and click to open the input window.
-3. Hit `Ctrl+V` to paste the signatures you copied into the window and then click Submit. This will add all of the signatures in the system into Siggy.
-4. Now that all the sigs are added you can hit your preferred formation button and it will reactivate the probes you have out. 
-5. Start scanning them down and updating the Type and Description.
+**Add the signatures to siggy**
+1. In the Probe Scanner window and hit `Ctrl+A` to select all of the signatures, then hit `Ctrl+C` to copy them
+2. Open siggy. Click on the system you're in, scroll down to "[+] Mass Sig Reader" and click to open the input window
+3. Hit `Ctrl+V` to paste the signatures you copied into the window and then click Submit. This will add all of the signatures in the system into siggy
+4. Now that all the sigs are added you can hit your preferred formation button and it will reactivate the probes you have out 
+5. Start scanning them down and update the Type and Description on siggy as you scan or by using the Mass Sig Reader when you're done.
 
 ### When adding wormholes to siggy
 **Make sure you fill out all the appropriate siggy fields completely.**
 1. 'Type' should be set to `WH`
-2. Under 'Name/Description' select the correct wormhole type `K162 (from Dangerous unknown)` from the drop down menu. In the text box add the wormhole name EXACTLY as you bookmarked it. _EG. `12-122`_
-3. Check the wormhole status and update the wormhole information by clicking on the link between 2 systems on the map. The menu that pops up allows to to set the hole as EOL and modify the mass stage so that it is visible on the siggy map.
+2. Under 'Name/Description' select the correct wormhole type like `K162 (from Dangerous unknown)` from the drop down menu. In the text box add the wormhole name EXACTLY as you bookmarked it. _EG. `12-122`_
+3. Check the wormhole status and update the wormhole information by clicking on the link between two systems on the map. The menu that pops up allows you to set the hole as EOL, mark it as a frigate wormhole and/or modifying the mass stage so that it is visible on the siggy map.
 4. If you encounter a wormhole to k-space you can use a temporary label to identify it until you jump through however the optimal labelling for k-space wormholes is `11-high (Boranai)` or `11-null (H-ADOC)` or `11-low (Maila)`, NOT `11-null1`. Having systems labelled as `null1` `null2` `null3` leads to confusion when you can see the fleet in a system on siggy but don't know which bookmark to use.
 
 ### Updating the bookmark can 
