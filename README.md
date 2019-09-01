@@ -2,8 +2,7 @@
 
 **Bookmarking & Scanning Procedures**
 
-
-_It's a very easy system, that's very easy to explain badly_
+_It's a very easy system, that's very easy to explain badly_  
 -Alerean
 
 This is a guide to procedures optimal when scanning and bookmarking in EVE Online. It is expected that you follow these procedures to make life easier for all alliance members and maximize PVP opportunities! 
@@ -29,7 +28,6 @@ Wormholes are a passage with an entry and an exit. The entry side will have a na
 
 Each new wormhole system added to the chain is labelled by adding a digit to the label of the hole that you are currently in, depending on whether it is a static (add `1`) or a non-static (add `2` through `9`).
 
-
 ### Where there is more than one non-static
 The first found is labelled by adding a `2` to the end of the label for your current system. 
 EG. `11-112`
@@ -45,12 +43,8 @@ However, remember when scanning a non-static system the static is the hole that 
 
 An example of a static chain: `0 - 1 - 11 - 111 - 4x1 - 5x1 - 6x1`
 
-
 ## Bookmarking wormholes
-Wormhole bookmarks have two important parts seperated by `-`
-
-The first part of the bookmark is the label of the system you are currently in. The second part of the bookmark is the label of the system that the wormhole leads to. 
-EG. `11-111`
+Wormhole bookmarks have two important parts seperated by `-`. If it's frigate wormhole we also add `=` at the end. The first part of the bookmark is the label of the system you are currently in. The second part of the bookmark is the label of the system that the wormhole leads to. EG `11-111` or `11-112=`
 
 ### There are a few other important principles: 
 
@@ -82,10 +76,9 @@ The standard method for bookmarking signatures is up to your corporation or alli
 When clearing gas site of Sleepers you should consider bookmarking the clouds even if you don't intend to gas them (other people might have the time, even for those crappy clouds). When bookmarking gas clouds the following convention helps determine what size and type of cloud it is while also telling the user which site it is in. 
 
 `c320-Vital-XYZ`
-- Gas Type 
-- Site Type 
-- Signature of the Site 
-
+- Gas Type
+- Site Type
+- Signature of the Site
 
 # Scanning
 
@@ -105,9 +98,10 @@ When clearing gas site of Sleepers you should consider bookmarking the clouds ev
 - Report on comms if the ships appear to be moving, doing sites (wrecks on scan are a giveaway), doing logistics (haulers coming onto and off of scan).
 
 3. Update the siggy map
-- The static chain should be positioned in as straight a line as possible to the right of homesys. You can move the position of a system by clicking 'Options > Edit Map' on the bottom left hand corner of the map and dragging the systems around. 
-- Update the system information by right clicking the system select 'edit'. This will bring up a window of system information. 
-- Update the systems activity level. (Green = Empty = No online POS / Yellow = Occupied = Online POS but no active pilots spotted / Red = Active pilots have been reported in system) 
+- The static chain should be positioned in as straight a line as possible to the right of homesys. You can move the position of a system by clicking 'Options > Edit Map' on the bottom left hand corner of the map and dragging the systems around.
+- Update the system information by right clicking the system and selecting 'Edit'. This will bring up a window of system information. 
+- Update the system activity level.  
+Green = Empty, no online structures // Yellow = Occupied, online structures but no active pilots spotted // Red = Active, pilots are active in structures or in space 
 - If the wormhole is not part of the static chain edit the system name to help with navigation. Standard labelling with the system class EG. `11122 (C3)`
 
 ### Finally drop probes and start scanning:
